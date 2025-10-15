@@ -26,6 +26,9 @@ css/
 
 ---
 
+![Adventure Game Screenshot](images/img.png)
+
+
 ## ▶️ How to Run
 1. Clone or download the repository.  
 2. Place it in your CFML server’s webroot (for example:  
