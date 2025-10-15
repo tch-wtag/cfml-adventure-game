@@ -1,0 +1,52 @@
+{
+    "start": {
+        "title": "The Crossroads",
+        "storyText": "You are at a crossroads. A dark forest looms to the left, and a mysterious cave entrance is to your right.",
+        "choices": [
+            { "text": "Enter the forest", "destination": "forest" },
+            { "text": "Explore the cave", "destination": "cave" }
+        ],
+        "item": "Map"
+    },
+    "forest": {
+        "title": "The Whispering Woods",
+        "storyText": "You are lost in the forest. You hear a strange noise and decide to run!",
+        "choices": [
+            { "text": "Follow a faint path deeper", "destination": "clearing" },
+            { "text": "Return to the crossroads", "destination": "start" }
+        ],
+        "item": "Mysterious Herb"
+    },
+    "clearing": {
+        "title": "The Quiet Clearing",
+        "storyText": "You find a clearing with a sparkling pond. Something shiny glimmers at the edge.",
+        "choices": [
+            { "text": "Pick up the shiny object", "destination": "forest" },
+            { "text": "Rest by the pond", "destination": "forest" }
+        ],
+        "item": "Golden Key"
+    },
+    "cave": {
+        "title": "The Glimmering Cave",
+        "storyText": "The cave walls sparkle with crystals. A narrow tunnel leads deeper inside.",
+        "choices": [
+            { "text": "Take the narrow tunnel", "destination": "treasureRoom" },
+            { "text": "Return to the crossroads", "destination": "start" }
+        ],
+        "item": "Silver Coin"
+    },
+    "treasureRoom": {
+        "title": "The Treasure Room",
+        "storyText": "You discover a hidden room filled with old relics. Among them lies a small chest.",
+        "choices": [
+            { "text": "Open the chest", "destination": "win" },
+            { "text": "Take a relic and leave", "destination": "cave" }
+        ],
+        "item": "Ancient Relic"
+    },
+    "win": {
+        "title": "The Chamber of Victory",
+        "storyText": "You open the chest to find it brimming with gold and jewels. You have found the lost treasure — You win!",
+        "choices": []
+    }
+}

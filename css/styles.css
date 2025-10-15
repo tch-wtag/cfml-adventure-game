@@ -1,0 +1,177 @@
+/* Reset defaults */
+body, h1, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(to bottom, #f0f8ff, #e6f2ff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Wrapper to center container and buttons */
+.center-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Center container for adventure page */
+.center-container {
+    max-width: 700px;        
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Space below the title */
+.center-container h1 {
+    margin-bottom: 20px; 
+    font-size: 2em;
+}
+
+/* Story text box */
+.story-box {
+    background: #e0f7fa;    
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    min-height: 120px; 
+}
+
+/* Choices list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul li a {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px;
+    transition: background 0.2s;
+}
+
+ul li a:hover {
+    background: #0056b3;
+}
+
+/* Buttons below container */
+.game-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.game-buttons button {
+    padding: 10px 16px;
+    margin: 5px; 
+    border: none;
+    border-radius: 8px;
+    background: #28a745;
+    color: #fff;
+    font-size: 0.95em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.game-buttons button:hover {
+    background: #218838;
+}
+
+/* End link styling */
+.end-link {
+    color: #dc3545;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.end-link:hover {
+    text-decoration: underline;
+}
+
+/* Fixed Inventory Bar */
+.inventory-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #2b4f7c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bold;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.item-badge {
+    background: #ffc107;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* Index page container */
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 100px auto; /* Center vertically with some top space */
+    padding: 30px 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Page title */
+.container h1 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #2b4f7c;
+}
+
+/* Welcome text */
+.container p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* Menu buttons */
+.menu-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: background 0.2s;
+}
+
+.menu-btn:hover {
+    background: #0056b3;
+}
