@@ -30,6 +30,8 @@ css/
 
 
 ## ▶️ How to Run
+
+### Option 1: Run locally
 1. Clone or download the repository.  
 2. Place it in your CFML server’s webroot (for example:  
    `C:\ColdFusion2023\cfusion\wwwroot` or `Lucee\tomcat\webapps\ROOT`).  
@@ -37,6 +39,10 @@ css/
    **http://127.0.0.1:8888/adventure.cfm**  
 4. Play the game — explore scenes, collect items, and manage your progress.
 
+### Option 2: Run with Docker
+If you have Docker installed:
+`docker-compose up --build`
+Then open **http://localhost:8888/adventure.cfm**
 ---
 
 ## 🧠 Technical Notes
