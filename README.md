@@ -37,6 +37,7 @@ Run:
 
 Then visit:  
 **http://localhost:8888/index.cfm**
+or
 **http://localhost:8888/adventure.cfm**
 
 ---
