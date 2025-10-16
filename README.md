@@ -36,6 +36,7 @@ Run:
 `docker-compose up --build`
 
 Then visit:  
+**http://localhost:8888/index.cfm**
 **http://localhost:8888/adventure.cfm**
 
 ---
